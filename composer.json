@@ -46,5 +46,6 @@
             "dev-master": "1.1.x-dev"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }

@@ -1,8 +1,8 @@
 {
-    "name":        "yohang/finite",
+    "name":        "phillipsnick/finite",
     "description": "A simple PHP5.3+ Finite State Machine",
     "keywords":    ["statemachine", "workflow", "state", "transition", "symfony", "bundle"],
-    "homepage":    "https://github.com/yohang/Finite",
+    "homepage":    "https://github.com/phillipsnick/Finite",
     "type":        "library",
     "license":     "MIT",
     "authors": [
@@ -14,6 +14,11 @@
         {
             "name":     "Finite contributors",
             "homepage": "https://github.com/yohang/Finite/graphs/contributors"
+        },
+        {
+            "name":     "Nick Phillips",
+            "email":    "nick@linkstudios.co.uk",
+            "homepage": "http://nickphillips.co"
         }
     ],
     "require": {
@@ -36,16 +41,11 @@
         "symfony/yaml":     "Yaml allows you to define your State graph in YAML"
     },
     "autoload": {
-        "psr-0": { "Finite": "src/" }
+        "psr-0": { 
+            "Finite": "src/" 
+        }
     },
     "config": {
         "bin-dir":"bin"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.1.x-dev"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    }
 }

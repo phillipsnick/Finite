@@ -271,6 +271,14 @@ class StateMachine implements StateMachineInterface
     }
 
     /**
+     * @return array
+     */
+    public function getStatesArray()
+    {
+        return $this->states;
+    }
+
+    /**
      * {@inheritDoc}
      */
     public function setObject($object)
